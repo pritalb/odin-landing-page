@@ -1,0 +1,155 @@
+body {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	height: 100vh;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	background-color: #1F2937;
+	color: #e5e7eb;
+	font-size: 18px;
+	padding-right: 2rem;
+	padding-left: 2rem;
+	align-items: center;
+}
+
+footer {
+	display: flex;
+	flex-shrink: 0;
+	font-size: 18px;
+	padding: 2rem;
+	justify-content: center;
+	align-content: center;
+	background-color: #1F2937;
+	color: #f9faf8;
+}
+
+#header-text {
+	color: #f9faf8;
+	font-size: 24px;
+	font-weight: bolder;
+}
+
+#header-links {
+	display: flex;
+	gap: 1.5rem;
+}
+
+.header-link {
+	text-decoration: none;
+	color: #f9faf8;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	flex-shrink: 0;
+	flex-wrap: wrap;
+}
+
+.page-section {
+	display: flex;
+	flex-grow: 1;
+	flex-shrink: 0;
+	height: 20rem;
+	padding: 2.5rem;
+	justify-content: center;
+	align-items: center;
+}
+
+#section-intro {
+	background-color: #1F2937;
+	color: #e5e7eb;
+	font-size: 18px;
+}
+
+#main-text {
+	color: #f9faf8;
+	font-weight: bolder;
+	font-size: 48px;
+}
+
+#section-info {
+	flex-direction: column;
+}
+
+#section-quote {
+	background-color: #e5e7eb;
+	color: #1F2937;
+	align-items: center;
+	justify-content: center;
+}
+
+#section-action {
+	display: flex;
+}
+
+#cards {	
+	display: flex;
+}
+
+.sign-up-button {
+	background-color: #3882f6;
+	color: #e5e7eb;
+}
+
+.image-card>img {
+	width: 10rem;
+	height: 15rem;
+}
+
+#intro-info {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+#quote {
+	display: flex;
+	flex-direction: column;
+}
+
+#prompt {
+	display: flex;
+	background-color: #3882f6;
+	color: #e5e7eb;
+	width: 40rem;
+	height: 10rem;
+	align-items: center;
+	justify-content: space-around;
+	border-radius: 0.5rem;
+}
+
+#prompt-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#prompt-text-main {
+	font-weight: bolder;
+}
+
+#prompt-sign-up-button {
+	border-color: #e5e7eb;
+	border-style: solid;
+	border-radius: 0.2rem;
+}
+
+#quote-text {
+	color: #1F2937;
+	font-size: 36px;
+	font-style: italic;
+	padding-right: 2rem;
+}
+
+#quote-author {
+	text-align: end;
+	font-weight: bolder;
+	font-size: 18px;
+	padding-right: 2rem;
+}
